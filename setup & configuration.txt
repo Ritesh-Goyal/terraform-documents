@@ -20,7 +20,9 @@ A) Installation on Ubuntu
 
 B) Configure AWS account and create a user with Administrator Access with programmatic access. Keep the csv files saved.
 
-C) Configure the AWS account details in the environment - 
+C) Install AWS cli - https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+
+D) Configure the AWS account details in the environment - 
   1. Static credentials 
   2. Environment variables
   3. Shared credentials file
