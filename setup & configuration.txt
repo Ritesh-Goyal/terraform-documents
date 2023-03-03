@@ -41,10 +41,16 @@ D) Configure the AWS account details in the environment -
   You can provide your credentials via the AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY, environment variables, representing your AWS Access Key and AWS Secret Key, respectively. 
 
   provider "aws" {}
-
+  
+  // For Linux
   $ export AWS_ACCESS_KEY_ID="awsaccesskey"
   $ export AWS_SECRET_ACCESS_KEY="awssecretkey"
   $ export AWS_DEFAULT_REGION="ap-south-1"
+  
+  // For Windows
+  $ set AWS_ACCESS_KEY_ID="awsaccesskey"
+  $ set AWS_SECRET_ACCESS_KEY="awssecretkey"
+  $ set AWS_DEFAULT_REGION="ap-south-1"
 
   3. Shared credentials file -
   You can use an AWS credentials file to specify your credentials. The default location is $HOME/.aws/credentials on Linux and OS X, or "%USERPROFILE%\.aws\credentials" for Windows users.
