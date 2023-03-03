@@ -1,4 +1,4 @@
-A) Installation on Ubuntu
+A) Installation
 
   Install chocolatey (windows package manager)
   https://docs.chocolatey.org/en-us/choco/setup#install-with-cmd.exe
