@@ -1,0 +1,38 @@
+// Cloning the remote repo on local system
+git clone git@github.com:Ritesh-Goyal/devops.git
+
+//Configuring global variables in Git
+git config --global user.name "Ritesh G"git config --global user.email "ritesh.devopstrainer@gmail.com"
+git config --global --list  
+git config --global alias.s "status -s"
+git config --global alias.lg "log --oneline --all --graph --decorate"
+
+//add to git 
+$ git add login.html
+$ git add .  // it will add all content
+$ git add -A // it will add all content including deleted 
+$ git status -s
+  A   //stagged file 
+  M   // modified file
+  ??  // untracked file
+  D   // delete file
+  R   // Rename file
+  
+//Command to commit
+$ git commit -m "First commit"
+
+// create dev branch
+$ git branch dev  
+
+//Switched to branch 'dev'
+$ git checkout dev 
+
+//Command to push code remotely 
+  //for remote dev branch
+  $ git push -u origin dev 
+
+  //for remote main branch
+  $ git push -u origin main
+
+// Command to pull the code from remote
+$ git pull
