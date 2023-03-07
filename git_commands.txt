@@ -2,7 +2,8 @@
 git clone git@github.com:Ritesh-Goyal/devops.git
 
 //Configuring global variables in Git
-git config --global user.name "Ritesh G"git config --global user.email "ritesh.devopstrainer@gmail.com"
+git config --global user.name "Ritesh G"
+git config --global user.email "ritesh.devopstrainer@gmail.com"
 git config --global --list  
 git config --global alias.s "status -s"
 git config --global alias.lg "log --oneline --all --graph --decorate"
